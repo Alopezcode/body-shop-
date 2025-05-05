@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Shop Cardenal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Body Shop El Cardenal</div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="diseno.html">Diseño</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Tu auto como nuevo, siempre</h1>
+            <p>Especialistas en reparación de carrocería, pintura y diseño personalizado.</p>
+            <a href="servicios.html" class="btn">Ver Servicios</a>
+        </section>
+    </main>
+    <!-- Incluye Bootstrap 5 desde CDN en tu <head> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<section class="promociones py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 text-danger">Promociones del Mes</h2>
+    <div class="row d-flex justify-content-center g-4">
+      
+      <!-- Promo 1 -->
+      <div class="col-md-5">
+        <div class="card h-100 shadow-sm border-danger">
+          <img src="imagenes/pintura automotriz basica.jpg" class="card-img-top" alt="Promo pintura básica">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-danger">Pintura Express</h5>
+            <p class="card-text">Renueva el color de tu auto en 48 horas con pintura automotriz de alta calidad. Incluye encerado final y revisión de detalles.</p>
+            <p class="fw-bold text-danger">Desde $299.00</p>
+            <a href="contacto.html" class="btn btn-danger mt-auto">Agendar ahora</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Promo 2 -->
+      <div class="col-md-5">
+        <div class="card h-100 shadow-sm border-danger">
+          <img src="imagenes/pintura automotriz premium.jpg" class="card-img-top" alt="Promo pintura premium">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-danger">Pintura Premium + Detallado</h5>
+            <p class="card-text">Aplicación de pintura premium con protección UV, pulido profesional y detallado completo interior y exterior.</p>
+            <p class="fw-bold text-danger">Desde $499.00</p>
+            <a href="contacto.html" class="btn btn-danger mt-auto">Solicitar cotización</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Sección de tarjetas -->
+<section class="tarjetas-credito py-4 bg-light">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3">
+        <i class="bi bi-credit-card-2-front-fill text-danger fs-2"></i>
+        <h5 class="mb-0 text-center text-md-start">
+          <span class="text-danger fw-bold">¡Aceptamos todas las tarjetas de crédito!</span>
+        </h5>
+        <div class="d-flex gap-2">
+          <img src="imagenes/visa logo.png" alt="Visa" height="30">
+          <img src="imagenes/Mastercard.jpg" alt="MasterCard" height="30">
+          <img src="imagenes/American-Express-Logo-Background-PNG-Image.png" alt="American Express" height="30">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+    <footer>
+        <p>&copy; 2025 Body Shop El Cardenal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
